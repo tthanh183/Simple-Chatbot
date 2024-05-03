@@ -1,0 +1,162 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Chào",
+        "Xin chào",
+        "Chào bạn",
+        "Có ai ở đây không"
+      ],
+      "responses": [
+        "Xin chào",
+        "Chào bạn",
+        "Tôi có thể giúp gì cho bạn"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại",
+        "Goodbye",
+        "Rất vui được gặp bạn, tạm biệt",
+        "Bye"
+      ],
+      "responses": [
+        "Tạm biệt!",
+        "Chúc một ngày tốt lành!",
+        "Tạm biệt, hẹn gặp lại!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn bạn",
+        "Cảm ơn vì đã giúp đỡ",
+        "Thông tin bạn cung cấp rất tuyệt vời",
+        "Cảm ơn những thông tin đó",
+        "Thank you",
+        "Thanks"
+      ],
+      "responses": [
+        "Hân hạnh",
+        "Không có gì"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "Bạn là ai",
+        "Bạn có chức năng gì",
+        "Bạn được tạo ra từ đâu",
+        "Bạn có thể làm gì"
+      ],
+      "responses": [
+        "Tôi là Chatbot được huấn luyện dựa trên mô hình mạng neural. Tôi có thể hỗ trợ giải đáp một vài thông tin về trang web"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "Đây là website gì",
+        "Cung cấp thông tin về website",
+        "Giới thiệu về website"
+      ],
+      "responses": [
+        "Đây là website giúp đặt vé xem phim"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "Có phim nào đang chiếu không?",
+        "Phim nào đang hot?",
+        "Xem phim có gì mới?",
+        "Có phim gì hay không?"
+      ],
+      "responses": [
+        "Dưới đây là danh sách các bộ phim đang chiếu:"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "showtimes",
+      "patterns": [
+        "Giờ chiếu của phim [tên phim] là khi nào?",
+        "Suất chiếu của phim [tên phim]",
+        "Khi nào có suất chiếu của phim [tên phim]?",
+        "Xem lịch chiếu của phim [tên phim]"
+      ],
+      "responses": [
+        "Dưới đây là lịch chiếu của phim:"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "Làm thế nào để đặt vé?",
+        "Tôi muốn đặt vé xem phim",
+        "Cách đặt vé xem phim"
+      ],
+      "responses": [
+        "Bạn có thể đặt vé bằng cách truy cập trang web hoặc qua ứng dụng di động của chúng tôi."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "promotion",
+      "patterns": [
+        "Có chương trình giảm giá nào không?",
+        "Có mã giảm giá nào không?",
+        "Có ưu đãi đặc biệt không?",
+        "Giới thiệu các chương trình giảm giá"
+      ],
+      "responses": [
+        "Hiện tại chúng tôi có một số chương trình giảm giá đặc biệt cho khách hàng. Vui lòng truy cập trang web hoặc ứng dụng di động của chúng tôi để biết thêm chi tiết."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Phương thức thanh toán nào được chấp nhận?",
+        "Tôi có thể thanh toán bằng cách nào?",
+        "Các phương thức thanh toán là gì?"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận thanh toán bằng thẻ tín dụng, thẻ ghi nợ và ví điện tử."
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
